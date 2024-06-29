@@ -1,5 +1,5 @@
 <p align="center">
-<a href = "https://github.com/Sibikrish3000/sms-spam-detection" > <img src = "https://github.com/Sibikrish3000/sms-spam-detection/blob/main/static/images/spam1.jpg?raw=true" alt = "sms spam image"  width=500 height=280> </a>
+<a href = "https://github.com/Sibikrish3000/sms-spam-detection" > <img src = "https://github.com/Sibikrish3000/sms-spam-detection/blob/main/static/images/spam.png?raw=true" alt = "sms spam image"  width=500 height=280> </a>
 </p>
 <h1 align="center"> SMS Spam Detection Web Application </h1>
 
