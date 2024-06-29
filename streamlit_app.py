@@ -8,8 +8,10 @@ from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 import re
 from PIL import Image
-#import nltk
+import nltk
 import streamlit as st
+nltk.download('punkt')
+nltk.download('stopwords')
 
 icon =Image.open("static/images/icon.png")
 about = open("about.md")
