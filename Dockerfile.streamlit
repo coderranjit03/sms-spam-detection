@@ -21,4 +21,4 @@ COPY . /app/
 EXPOSE 8501
 
 # Start the Streamlit server
-CMD ["streamlit", "run", "docker_app.py", "--server.port", "8501", "--server.enableCORS", "false"]
+CMD ["python","-m","nltk.downloader", "punkt","&&","python", "-m", "nltk.downloader", "stopwords","&&","streamlit", "run", "docker_app.py", "--server.port", "8501", "--server.enableCORS", "false"]
