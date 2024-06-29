@@ -25,7 +25,7 @@ This repository contains a web application for detecting spam SMS messages. The 
 [Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 ## Try on Streamlit
 <p>
-<a href="https://sms-spam-detection-3000.streamlit.app"><img src="https://img.shields.io/badge/Streamlit-e63946?style=flat&logo=streamlit" alt="streamlit" width="160" height="50" ></a>
+<a href="https://sms-spam-detection-3000.streamlit.app"><img src="https://img.shields.io/badge/Streamlit-e63946?style=flat&logo=streamlit&logoColor=linear-gradient(360deg, #f093fb 0%, #f5576c 100%)" alt="streamlit" width="160" height="50" ></a>
 </p>
 
 ## Try on Huggingface Space
