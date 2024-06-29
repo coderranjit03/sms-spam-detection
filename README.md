@@ -116,16 +116,7 @@ This repository contains a web application for detecting spam SMS messages. The 
 
 2. Access the streamlit webapp at [http://localhost:8501](http://localhost:8080).
 
-### Using Docker image
 
-```sh
-docker network create AIservice
-```
-```sh
-docker pull sibikrish/sms-spam-detection:latest
-docker run sibikrish/sms-spam-detection:latest #or 
-docker run -d -p 8501:8501 sibikrish/sms-spam-detection:latest
- ``` 
 ## Development
 ### Running in a Gitpod Cloud Environment
 
