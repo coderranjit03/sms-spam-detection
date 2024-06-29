@@ -1,0 +1,12 @@
+pillow
+fastapi
+uvicorn
+streamlit
+requests
+psutil
+numpy
+joblib
+scikit-learn
+pandas
+nltk
+pydantic
