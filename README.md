@@ -1,3 +1,4 @@
+<!-- markdownlint-disable -->
 <p align="center">
 <a href = "https://github.com/Sibikrish3000/sms-spam-detection" > <img src = "https://github.com/Sibikrish3000/sms-spam-detection/blob/main/static/images/spam.png?raw=true" alt = "sms spam image"  width=500 height=280> </a>
 </p>
