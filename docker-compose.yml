@@ -1,25 +1,17 @@
 version: '3.8'
 
 services:
-  fastapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: fastapi_container
-    ports:
-      - "8000:8000"
-    volumes:
-      - .:/app
-    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
-
   streamlit:
     build:
       context: .
-      dockerfile: Dockerfile.streamlit
+      dockerfile: Dockerfile
     container_name: streamlit_container
     ports:
       - "8501:8501"
+      - "8000:8000"
     volumes:
       - .:/app
-    depends_on:
-      - fastapi
+    command: streamlit run streamlit_app.py --server.port 8501 --server.enableCORS false
+   
+
+  
