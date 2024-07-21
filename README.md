@@ -31,7 +31,7 @@ This repository contains a web application for detecting spam SMS messages. The 
 
 ## Try on Huggingface Space
 <p>
-<a href="https://huggingface.co/spaces/sibikrish/sms-spam-detection?theme=dark"><img src="https://img.shields.io/badge/Huggingface-white?style=flat&logo=huggingface&logoSize=amd" alt="huggingface" width="160" height="50" ></a>
+<a href="https://sibikrish-sms-spam-detection.hf.space"><img src="https://img.shields.io/badge/Huggingface-white?style=flat&logo=huggingface&logoSize=amd" alt="huggingface" width="160" height="50" ></a>
 </p>
 
 
